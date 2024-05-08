@@ -1,0 +1,552 @@
+html{
+    scroll-padding-top: 8.5rem;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #CD015B;
+    position: sticky;
+    top:0;
+}
+
+.header-icons{
+   display: flex;
+    
+}
+
+.header-icons > div{
+    display: flex;
+}
+
+.redes-icons img, .seccion-perfil img{
+    width: 25px;
+    margin: 0 5px;
+}
+.seccion-perfil img, .iconos img{
+    margin: 0 10px;
+}
+
+.seccion-perfil, .redes-icons{
+    margin-top: 40px ;
+}
+
+.redes-icons{
+    margin-left: 200px;
+}
+
+.seccion-perfil{
+    margin-right: 210px;
+}
+
+
+.logotipo{
+    margin: auto;
+    
+}
+
+.logotipo img{
+    z-index: 1;
+}
+
+header > div:nth-child(2){
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: -25px;
+    
+}
+header > div:nth-child(2) p {
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    text-transform: uppercase;
+
+}
+
+header > div:nth-child(2) p {
+    margin: 20px 60px 0;
+    
+
+}
+
+header > div:nth-child(2) a, #hero a, .pink-mission a, .work-pink a, .contact a, .productos a, #pink-products > a, .think-pink a{
+    text-decoration: none;
+}
+
+#hero{
+    background-image: url(Img/fondo-section.jpg);
+    background-repeat: no-repeat;
+    background-position: center -90%;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#hero > div{
+    margin: 70px 220px 0 0;
+    align-self: flex-end;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.linea-fucsia{
+    width: 170px;
+}
+#hero > img{
+    width: 450px;
+}
+
+#hero h1:first-child, #hero  h2:nth-of-type(2), #hero h2:last-of-type, .boton-1, .boton-2, .work-pink h3, .boton-3, .think-pink h3{
+    font-family: Poppins, sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    color: #CE005C;
+    text-transform: uppercase;
+}
+#hero .tasting, .women-pink h3, .women-pink h2, .qualities h3, .simple{
+    font-family: Poppins, sans-serif;
+    font-size: 90px;
+    font-weight: 800;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    line-height: 60px;
+}
+
+h1, #hero h2:first-child{
+    margin: 0;
+}
+
+#hero h2:nth-of-type(2){
+    color: #FFFFFF;
+    margin: 0;
+    
+
+}
+#hero h2:last-of-type{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 5px;
+}
+
+.boton-1, .boton-2, .boton-3, .boton-5{
+    background-color: #CE005C;
+    width: fit-content;
+    font-size: 22px;
+    color: #FFFFFF;
+    padding: 15px 20px;
+    border-radius: 10px;
+    
+}
+
+#hero > h2{
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+
+.pink-mission, .contact{
+    background-color: #CD015C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.women-pink{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.qualities{
+    display: flex;
+    
+}
+
+.women-pink h3{
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 90px;
+}
+
+.women-pink h2, .qualities h3{
+    font-size: 80px;
+    font-weight: 800;
+    color: #FF92C9;
+    
+}
+
+.women-pink p, .qualities li, .work-pink .pink, .hope p, .boton-4, .boton-5, .think-pink h4, .think-pink .titulo-especial, .think-pink p{
+    color: #FFFFFF;
+    font-family: "Reddit Mono", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.qualities li{
+    list-style: none;
+    font-weight: 500;
+    text-align: right;
+}
+
+.qualities h3{
+    font-size: 67px;
+    font-weight: 900;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.boton-5{
+    font-weight: 400;
+
+}
+.boton-2, .boton-4{
+    background-color: #FFFFFF;
+    color: #CE005A;
+}
+
+.work-pink, .pink-empowerment, .copyright{
+    background-color: #FF92C9;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.simple{
+    line-height: 0;
+}
+.work-pink > div{ 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.work-pink h3{
+    font-size: 90px;
+    line-height: 80px;
+}
+
+.work-pink div img:first-of-type{
+    margin-top: -70px;
+}
+
+.work-pink .pink, .hope p{
+    color: #CD015B;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+p.boton-3 {
+    color: #FFFFFF;
+    margin-top: -5px;
+}
+
+.work-pink img:nth-of-type(2), .work-pink img:nth-of-type(3), .work-pink img:nth-of-type(4){
+    margin-top: 40px;
+}
+
+.work-pink img:nth-of-type(3){
+    width: 50vh;
+}
+
+
+.pink-empowerment .hope{
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pink-empowerment img:first-child{
+    width: 600px;
+}
+
+.hope p:first-of-type{
+    margin-top: 40px;
+    text-align: center;
+    line-height: 24px
+    
+}
+
+.hope p:nth-of-type(2), .hope p:last-of-type{
+    line-height: 12px;
+}
+
+.hope img:last-child{
+    margin-top: 70px;
+}
+
+.contact .info{
+    display: flex;
+}
+
+.iconos{
+    display: flex;
+    
+}
+.iconos img{
+    width: 20px;
+}
+
+.contact > img{
+    width: 40vw;
+    margin-top: 70px;
+}
+
+.contact p, .contact h4, .copyright p{
+    color: #FFFFFF;
+    font-family: "Reddit Mono", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.contact h4{
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.contact .info > div{
+    margin: 80px 60px 0;
+}
+
+.boton-4, .boton-5, .boton-6{
+    border-radius: 10px;
+    width: fit-content;
+    padding: 10px 20px;
+}
+
+p.borde{
+    box-sizing: border-box;
+    border: solid 1px #FFFFFF;
+    border-radius: 10px;
+    padding: 10px 90px 10px 10px;
+    
+}
+
+.info{
+    margin-left: 30px;
+}
+
+.copyright p{
+    text-align: center;
+}
+.copyright p:last-child{
+    box-sizing: border-box;
+    border: solid 1px #FFFFFF;
+    
+}
+
+/*Our Products*/
+
+.productos{
+    display: grid;
+    width: 75vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:  1fr 1fr;
+    gap: 70px;
+    
+}
+
+
+.multi-for-her{
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+}
+
+.hair-skin-nails{
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+}
+
+.melatonin-sleep{
+    grid-row: 1 / 2;
+    grid-column: 3 / 4;
+}
+
+.biotin-beauty{
+    grid-row: 1 / 2;
+    grid-column: 4 / 5;
+}
+
+.prenatal-multi{
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+}
+
+.probiotic-for-her{
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+}
+
+.multi-for-her, .hair-skin-nails, .melatonin-sleep, .biotin-beauty, .prenatal-multi, .probiotic-for-her{
+    display: flex;
+    flex-direction: column;
+}
+
+.multi-for-her > div, .hair-skin-nails > div, .melatonin-sleep > div, .biotin-beauty > div, .prenatal-multi > div, .probiotic-for-her > div{
+    display: flex;
+    flex-direction: row;
+}
+
+#pink-products .productos > div{
+    text-align: center;
+    display: flex;
+    
+    align-items: center;
+}
+
+#pink-products .productos{
+    justify-content: center;
+    
+}
+#pink-products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.productos{
+    margin-top: 60px;
+}
+#pink-products .productos img{
+    width: 7vw;
+}
+
+#pink-products > div > div img:last-child{
+    width: 100px;
+}
+
+
+.productos > div > div p{
+    margin-top: 50px;
+}
+
+#pink-products h4, #pink-products h5, #pink-products h3{
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #CE005C;
+    text-transform: uppercase;
+    
+}
+#pink-products h3, #pink-products > p{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#pink-products .pinkempower:hover, .think-pink h3:hover, .boton-2:hover, .boton-3:hover{
+    color: gray;
+}
+#pink-products h5{
+    font-weight: 300;
+    margin: 0;
+}
+
+#pink-products .pinkempower{
+    font-weight: 700;
+    color: #CD015B;
+    font-size: 22px;
+}
+
+.multi-for-her .boton-5{
+    margin-top: -10px;
+}
+.probiotic-for-her .boton-5{
+    margin-top: 50px;
+}
+.biotin-beauty > div, .melatonin-sleep > div, .probiotic-for-her > div, .prenatal-multi > div, .hair-skin-nails > div, .multi-for-her > div{
+    margin-top: -30px;
+}
+.hair-skin-nails .boton-5{
+    margin-top: -8px;
+}
+
+
+.productos > div img:hover{
+    opacity: 80%;
+}
+img.red-insta {
+    margin-top: 50px;
+    border-radius: 50%;
+    width: 80px;
+}
+
+.think-pink{
+    justify-content: center;
+}
+
+.think-pink > ul > li{
+    display: flex;
+    margin: 80px 200px;
+}
+.think-pink > img{
+    width: 100vw;
+}
+
+.think-pink > ul img{
+    width: 35vw;
+    border-radius: 20px;
+}
+
+
+.jingle-bells > div, .summer > div, .gardening > div, .vitamins > div{
+    margin-left: 20px;   
+}
+
+.cat > div, .meal > div, .female-anthem > div, .express > div{
+    margin-right: 20px;
+}
+
+.think-pink h3{
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.think-pink h4{
+    color: black;
+}
+.think-pink .titulo-especial{
+    font-size: 26px;
+    color: #CD015B;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.think-pink p{
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.think-pink .boton-6{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #CD015B;
+}
+
+.gardening .introduction{
+    margin: 0;
+}
+
+.express > div {
+    margin-left: 40px;
+}
